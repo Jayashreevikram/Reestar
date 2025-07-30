@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: serif;
+  text-align: center;
+}
+
+.section-one {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.section-two {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.section-two a {
+  color: lightblue;
+  text-decoration: none;
+  margin: 0;
+  font-size: 18px;
+}
+
+.section-two a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 0p ;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+  border: solid black 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 10px
+}
+
+button {
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.contact-form table {
+  width: 100px;
+
+}
+
+
+.contact-form__cont {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+
+
+.contact-form__send {
+  width: 100%;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
